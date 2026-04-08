@@ -1,0 +1,28 @@
+[project]
+name = "rv-search-engine"
+version = "0.3.0"
+description = "RV Search Engine with Redis-backed indexing, ranking, suggestions, and image search."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116.0,<1.0.0",
+  "redis>=6.0.0,<7.0.0",
+  "uvicorn>=0.35.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "fakeredis>=2.31.0,<3.0.0",
+  "httpx>=0.28.0,<1.0.0",
+  "pytest>=8.4.0,<9.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["redis_search_engine*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

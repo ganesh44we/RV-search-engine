@@ -1,0 +1,12 @@
+{
+  "name": "rv-search-engine",
+  "version": "0.3.0",
+  "description": "RV Search Engine desktop app with Redis-backed web and image search",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^37.2.0"
+  }
+}

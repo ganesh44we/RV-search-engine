@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RV Search Engine</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <h1>RV Search Engine</h1>
+      </header>
+
+      <section class="search-shell">
+        <input
+          id="search-input"
+          class="search-input"
+          type="text"
+          placeholder="Search"
+          autocomplete="off"
+        />
+        <div id="suggestions" class="suggestions hidden"></div>
+      </section>
+
+      <section id="results" class="results">
+        <div class="empty-state">
+          <p>Search the web index.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./renderer.js"></script>
+  </body>
+  </html>
