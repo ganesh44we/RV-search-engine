@@ -225,32 +225,28 @@ This controls:
 - npm
 - Redis server available locally
 
-### 1. Go To The Project
 
-```bash
-cd "/Users/ganeshrayapati/Documents/New project/redis-search-engine"
-```
 
-### 2. Create And Activate A Virtual Environment
+### 1. Create And Activate A Virtual Environment
 
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
 ```
 
-### 3. Install Python Dependencies
+### 2. Install Python Dependencies
 
 ```bash
 pip install -e ".[dev]"
 ```
 
-### 4. Install Node / Electron Dependencies
+### 3. Install Node / Electron Dependencies
 
 ```bash
 npm install
 ```
 
-### 5. Start Redis
+### 4. Start Redis
 
 If Redis is installed with Homebrew:
 
@@ -258,7 +254,7 @@ If Redis is installed with Homebrew:
 brew services start redis
 ```
 
-Or run it manually:
+Or run it manually(ios):
 
 ```bash
 /opt/homebrew/opt/redis/bin/redis-server /opt/homebrew/etc/redis.conf
