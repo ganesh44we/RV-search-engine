@@ -1,6 +1,7 @@
 # RV Search Engine
 
-RV Search Engine is a Redis-backed search engine project with a FastAPI backend and a minimal Electron desktop UI.
+
+RV Search Engine is a Redis-backed search engine built with FastAPI and Electron, featuring TF-IDF ranking, query understanding, image search, and relevance tuning.
 
 It is designed to explore how a modern search engine can be built from core search concepts such as:
 
