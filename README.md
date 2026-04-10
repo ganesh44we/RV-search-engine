@@ -592,3 +592,6 @@ This project currently includes:
 - external provider blending
 - snippet highlighting
 - packaged app build
+
+##Author 
+ganesh44we
